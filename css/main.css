@@ -9,26 +9,31 @@
     text-align: center;
 }
 
-.profile-image {
-    width: 5px;
+.blog-content {
+    width: 80%;
+    height: 200px;
     float: left;
 }
 
-.title-name {
-    margin-top: 10px;
-    margin-left: 11%;
-    float: left;
-}
-.content-title {
-    font-size: 10px;
-    clear: both;
-}
-
-.content {
-    width: 50%;
+.blog-img{
+    width: 20%;
+    height: 200px;
     float: left;
 }
 
-.ground-image{
-    display: inline-block;
+.blog-profile {
+    width: 50px;
+    display: block;
+    float: left;
+}
+
+.blog-name {
+    float: left;
+}
+
+.container {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
