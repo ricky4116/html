@@ -1,9 +1,21 @@
+@font-face {
+    font-family: '나눔스퀘어R';
+    src: url(../font/NanumSquareR.woff);
+    /*용량줄이기위해서 웹용 폰트 사용 */
+}
+
 div {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
+    font-family: '나눔스퀘어R';
+}
+
+p,h4,h3,h2,h1,span {
+    transform: rotate(0.03deg);
+    /* 폰트 부드럽게 하려면 회전하면 좋음*/
 }
 
 .profile {
