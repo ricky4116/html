@@ -179,26 +179,19 @@ input[type=text] {
     width: 400px;
 }
 
-.btn {
+.main-btn {
     padding: 15px;
     font-size: 20px;
     border: none;
-    border-radius: 10px;
-    background-color: coral;
-    color: white;
     cursor: pointer;
 }
 
-.btn:hover {
-    background-color: chocolate;
+.bg-red {
+    background: red;
 }
 
-.btn:focus {
-    background-color: gray;
-}
-
-.btn:active {
-    background-color: brown;
+.bg-blue {
+    background: blue;
 }
 
 .input-test {
