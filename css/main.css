@@ -23,7 +23,7 @@ body {
     float: left;
 }
 
-.blog-img{
+.blog-img {
     width: 20%;
     height: 200px;
     float: left;
@@ -46,7 +46,7 @@ body {
     margin-right: auto;
 }
 
-.navbar li{
+.navbar li {
     display: inline-block;
     width: 60px;
     text-align: center;
@@ -55,7 +55,7 @@ body {
     border-radius: 5px;
 }
 
-.navbar a{
+.navbar a {
     font-size: 16px;
     text-decoration: none;
 }
@@ -95,14 +95,14 @@ body {
 }
 
 .second-background {
-   width: 80%;
-   max-width: 600px;
-   margin: auto;
-   padding: 20px;
-   text-align: center;
-   background-color: #eee;
-   position: relative;
-   top: 150px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    top: 150px;
 }
 
 .contact {
@@ -110,17 +110,17 @@ body {
     position: relative;
     padding: 15px;
     margin: auto;
-    top : 150px;
+    top: 150px;
     width: 80%;
     max-width: 600px;
     border: black solid 1px;
 }
 
-.contact-inside{
+.contact-inside {
     margin-left: 30px;
 }
 
-input[type = email],
+input[type=email],
 input[type=text] {
     padding: 10px;
 }
@@ -129,16 +129,18 @@ input[type=text] {
     margin-top: 10px;
     display: block;
 }
+
 .email-input {
     width: 70%;
 }
 
-.main-textarea{
+.main-textarea {
     width: 80%;
     height: 200px;
     display: block;
 }
-.contact-button{
+
+.contact-button {
     padding: 10px;
     width: 150px;
     margin-left: 185px;
@@ -151,4 +153,28 @@ input[type=text] {
 .last-contact {
     margin-top: 10px;
     display: block;
+}
+
+.cart-background {
+    width: 100%;
+    background-color: #c2d3de;
+    padding: 30px;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.cart-table td,
+.cart-table th {
+    padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+}
+
+.cart-table :nth-child(2) {
+    width: 400px;
 }
