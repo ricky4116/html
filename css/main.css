@@ -1,3 +1,11 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
 .profile {
     width: 100px;
     display: block;
@@ -87,13 +95,12 @@
 }
 
 .second-background {
-    font-size: 15px;
-    width: 60%;
-    padding: 20px;
-    background: #eee;
-    position: relative;
-    top: 150px;
-    left: 0;
-    right: 0;
-    margin: auto;
+   width: 80%;
+   max-width: 600px;
+   margin: auto;
+   padding: 20px;
+   text-align: center;
+   background-color: #eee;
+   position: relative;
+   top: 150px;
 }
