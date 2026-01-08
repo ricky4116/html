@@ -233,35 +233,25 @@ input[type=text] {
 
 }
 
-.title-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.title-item{
-    font-size: 12px;
-    margin-left: 10px;
-    align-content: center;
-}
 /* vw : 브라우저 크기에 비례
 vh : 브라우저 높이에 비례
 rem : 기본 폰트사이즈에 비례 */
 
-@media screen and (max-width : 1200px) {
-    .main-title {
-        font-size: 30px;
+.explain-container>div {
+    float: left;
+    width: 25%;
+}
+
+@media screen and (max-width : 992px) {
+    .explain-container>div {
+        float: left;
+        width: 50%;
     }
 }
 
 @media screen and (max-width : 768px) {
-    .main-title {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width : 576px) {
-    .main-title {
-        font-size: 10px;
+    .explain-container>div {
+        float: none;
+        width: 100%;
     }
 }
