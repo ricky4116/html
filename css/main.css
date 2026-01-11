@@ -317,16 +317,6 @@ rem : 기본 폰트사이즈에 비례 */
     font-size: 30px;
 }
 
-.input-file::file-selector-button {
-    background: skyblue;
-    border: none;
-    padding: 20px;
-}
-
-.inpu-file::file-selector-button:hover {
-    background: blue;
-}
-
 @media screen and (max-width : 992px) {
     .explain-container>div {
         float: left;
