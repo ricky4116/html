@@ -1,16 +1,33 @@
-:root {
-  --main-color: red;
+.main-bg h4 {
+  font-size: 16px;
 }
 
+.main-bg button {
+  color: red;
+}
 
 .background {
-  background-color: var(--main-color);
-  font-size: calc(40px - 20px);
+  background-color: #2a4cb2;
 }
 
 .box {
-  background-color: #2a4cb2;
-  font-size: 18px;
+  background-color: #eeeeee;
 }
 
-/*# sourceMappingURL=test.css.map */
+.div-blue, .div-red, .div-green {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.div-green {
+  color: green;
+}
+
+.div-red {
+  color: red;
+}
+
+.div-blue {
+  color: blue;
+}/*# sourceMappingURL=test.css.map */
